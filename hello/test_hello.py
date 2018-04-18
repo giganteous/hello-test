@@ -17,3 +17,6 @@ class TestHello(unittest.TestCase):
 
     def additional_test(self):
         self.assertEqual(1, 1)
+
+    def failabit(self):
+        self.fail("foo!")
